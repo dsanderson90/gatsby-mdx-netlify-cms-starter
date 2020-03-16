@@ -12,5 +12,6 @@ exports.onCreateWebpackConfig = ({ actions }) => {
         child_process: "empty",
         module: "empty",
       },
+      externals: ["fs"],
     });
   };
